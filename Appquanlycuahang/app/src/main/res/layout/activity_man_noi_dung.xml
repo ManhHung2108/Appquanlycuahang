@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Ten_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Sản Phẩm"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhà Cung cấp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_nhaCungCapChiTiet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_ThongTinChiTiet"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_SoLuongChiTiet"/>
+
+</LinearLayout>

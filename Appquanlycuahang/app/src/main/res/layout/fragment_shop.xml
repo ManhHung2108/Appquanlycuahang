@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="411dp"
+        android:layout_height="301dp"
+        android:src="@drawable/banner" />
+    <TextView
+        android:id="@+id/tvMoiNhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mới nhất"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#E81C1C"
+        android:layout_below="@+id/imgBanner"/>
+
+    <ListView
+        android:id="@+id/lvShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMoiNhat"
+        android:layout_marginTop="23dp" />
+
+
+</RelativeLayout>
